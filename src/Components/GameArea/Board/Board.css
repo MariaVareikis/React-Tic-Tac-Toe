@@ -1,0 +1,28 @@
+.Board table,
+th,
+td {
+    border: 5px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+.Board table {
+    width: 360px;
+    height: 360px;
+    margin: 10px auto;
+    backdrop-filter: blur(10px);
+}
+
+.Board button:hover {
+    background: linear-gradient(-45deg, rgb(120, 203, 231), #38abd8, #e66bf1, #bf6deb);
+}
+
+.Board button {
+    background: linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248));
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Segoe Print;
+    font-weight: bold;
+}

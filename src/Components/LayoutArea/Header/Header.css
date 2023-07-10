@@ -1,0 +1,14 @@
+.Header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.Header>h1 {
+    font-family: Segoe Print;
+    font-size: 40px;
+    /* font-family: Comic Sans MS; */
+    text-shadow: 3px 3px rgb(129, 140, 248);
+}
